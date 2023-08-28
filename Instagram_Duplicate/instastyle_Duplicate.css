@@ -1,0 +1,115 @@
+*{
+    
+    box-sizing: border-box;
+   
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 103vh;
+    background-image: url('/istagram_Background.jpeg');
+     background-repeat: no-repeat; 
+     background-size: 2000px;
+}
+.para{
+
+    color:white;
+    font-size: 20px;
+    display: flex;
+
+    margin-top: -50px;
+    justify-content: center;
+}
+input{
+    font-size: small;
+}
+.log{
+    width: 320px;
+    background-color: rgb(228, 237, 234);
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+div h3{
+    padding: 10px;
+    margin-top: 40px ;
+    height: 40px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+div input{
+    margin: 0;
+    border-radius: 3px;
+    margin-top: 7px;
+    height: 30px;
+    padding: 10px;
+}
+.in{
+    border:none;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 7px;
+    height: 30px;
+    background-color: rgb(12, 12, 236);
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+ h5 {
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    position: relative;
+    align-items: center;
+}
+
+.head::before, .head::after{
+    content: "";
+    height:2px;
+    background-color: black;
+    display:block ;
+
+}
+h6{ 
+
+    margin: 0;
+    padding: 5px;
+    font-size: medium;
+    text-align: center;
+    color: rgb(60, 60, 159);
+    font-weight: bold;
+}
+.anchor{
+    font-size: 12px;
+    text-align: center;
+}
+.btn1{
+    width: 100%;
+    height: 40px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: black;
+    letter-spacing: -1px;
+}
+.in:hover{
+    color: rgb(10, 10, 9);
+}
+button span{
+    font-weight: bold;
+    letter-spacing: -1px;
+    font-size: 14px;
+    color:rgb(9, 111, 151);
+}
+.btn1:hover{
+    background-color: blanchedalmond;
+}
